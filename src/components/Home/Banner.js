@@ -9,7 +9,7 @@ const Banner = () => {
     return (
         <div className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="https://i.ibb.co/8DjBZjL/IMG-1697.png" className="max-w-sm rounded-lg shadow-2xl rounded-full ring ring-primary ring-offset-base-100 ring-offset-2" alt='img' />
+                <img src="https://i.ibb.co/8DjBZjL/IMG-1697.png" className="max-w-sm rounded-lg shadow-2xl " alt='img' />
                 <div className='lg:px-16'>
                     <h1 className="text-5xl font-bold">Razu Molla!</h1>
                     <Type className='text-6xl'></Type>
@@ -20,7 +20,7 @@ const Banner = () => {
                     <div className=' justify-center flex'>
                         <div>
                             <Link to='https://drive.google.com/drive/u/0/my-drive' target='_blank'>
-                                <button className="btn btn-outline btn-primary">
+                                <button className="btn text-red-600 btn-primary">
                                     Open Resume
                                 </button>
                             </Link>

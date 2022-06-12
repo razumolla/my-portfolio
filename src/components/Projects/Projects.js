@@ -8,7 +8,7 @@ import image3 from '../../image/image3.PNG'
 const Projects = () => {
     return (
         <div>
-            <h2 className='text-center text-4xl font-bold mt-10 '>Recent Projects </h2>
+            <h2 className='text-center text-4xl font-bold mt-16 '>Recent Projects </h2>
             <h3 className='text-center text-2xl mb-5 text-secondary font-bold'>I've Completed</h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
