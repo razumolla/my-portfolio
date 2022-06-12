@@ -7,7 +7,7 @@ import { AiFillLinkedin } from 'react-icons/ai';
 
 const Banner = () => {
     return (
-        <div className="hero min-h-screen ">
+        <div id='home' className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row">
                 <img src="https://i.ibb.co/8DjBZjL/IMG-1697.png" className="max-w-sm rounded-lg shadow-2xl " alt='img' />
                 <div className='lg:px-16'>
