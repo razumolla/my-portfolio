@@ -5,15 +5,15 @@ const Header = () => {
     const menuItem = <>
         <li><Link to="/home">Home</Link></li>
         <li><Link to="/about">About</Link></li>
-        <li><Link to="/#skill">Skill</Link></li>
+        <li><Link to="/skill">Skill</Link></li>
         <li><Link to="/projects">Projects</Link></li>
-        <li><Link to="/projects">Blog</Link></li>
+        <li><Link to="/blog">Blog</Link></li>
         <li><Link to="/contact">Contact</Link></li>
     </>
 
 
     return (
-        <div className="navbar bg-base-100 container">
+        <div className="navbar  container bg-gradient-to-r from-blue-50 to-blue-200">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-primary lg:hidden">

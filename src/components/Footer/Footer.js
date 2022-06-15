@@ -1,42 +1,41 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import { BsFacebook } from 'react-icons/bs';
 import { AiFillGithub } from 'react-icons/ai';
 import { AiFillLinkedin } from 'react-icons/ai';
 
 const Footer = () => {
     return (
-        <footer class="footer footer-center p-10 bg-gray-100 text-base-content rounded">
-            <div class="grid grid-flow-col gap-4">
-                <Link to='#home' class="link link-hover">Home</Link>
-                <Link to='#skills' class="link link-hover">Skills</Link>
-                <Link to='#projects' class="link link-hover">Project</Link>
-                <Link to='#blog' class="link link-hover">Blog</Link>
+        <footer className="footer footer-center p-10 rounded bg-gradient-to-r from-red-300 to-blue-400">
+            <div className="grid grid-flow-col gap-4">
+                <a href='/home' className="link link-hover">Home</a>
+                <a href='/skills' className="link link-hover">Skills</a>
+                <a href='/projects' className="link link-hover">Project</a>
+                <a href='/blog' className="link link-hover">Blog</a>
             </div>
             <div>
-                <div class="grid grid-flow-col gap-4">
-                <div className=' justify-center flex'>
-                     
+                <div className="grid grid-flow-col gap-4">
+                    <div className=' justify-center flex'>
+
                         <div>
-                            <Link to='https://www.facebook.com/profile.php?id=100010189419477' target='_blank'>
-                                <button className=" mx-2 text-4xl text-primary">
+                            <a href='https://www.facebook.com/profile.php?id=100010189419477' target='_blank'>
+                                <button className=" mx-2 text-4xl ">
                                     <BsFacebook />
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to='https://github.com/razumolla' target='_blank' >
-                                <button className=" mx-2 text-4xl text-primary">
+                            <a href='https://github.com/razumolla' target='_blank' >
+                                <button className=" mx-2 text-4xl ">
                                     <AiFillGithub />
                                 </button>
-                            </Link>
+                            </a>
                         </div>
                         <div>
-                            <Link to='https://www.linkedin.com/in/razu-molla/' target='_blank' >
-                                <button className=" mx-2 text-4xl text-primary">
+                            <a href='https://www.linkedin.com/in/razu-molla/' target='_blank' >
+                                <button className=" mx-2 text-4xl">
                                     <AiFillLinkedin />
                                 </button>
-                            </Link>
+                            </a>
                         </div>
 
                     </div>
