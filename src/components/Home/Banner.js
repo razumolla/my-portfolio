@@ -1,8 +1,5 @@
 import React from 'react';
 import Type from '../Type';
-import { BsFacebook } from 'react-icons/bs';
-import { AiFillGithub } from 'react-icons/ai';
-import { AiFillLinkedin } from 'react-icons/ai';
 
 const Banner = () => {
     return (
@@ -16,37 +13,7 @@ const Banner = () => {
                         <br />
                         I am working with React, Node Js and MongoDB. I also have experience in developing static websites using HTML5, CSS3 and JavaScript. I always try to update myself with cutting-edge technology. I am a quick learner. Right now I want to use my previous skills as well as gain some new skills.
                     </p>
-                    <div className=' justify-center flex'>
-                        <div>
-                            <a href='https://drive.google.com/file/d/1_EoJgB3-rQHDqTVWNI5IUP0XWmrkefj2/view?usp=sharing' target='_blank'>
-                                <button className="btn text-red-600 btn-primary">
-                                    Open Resume
-                                </button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href='https://www.facebook.com/profile.php?id=100010189419477' target='_blank'>
-                                <button className=" mx-2 text-4xl text-primary">
-                                    <BsFacebook />
-                                </button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href='https://github.com/razumolla' target='_blank' >
-                                <button className=" mx-2 text-4xl text-primary">
-                                    <AiFillGithub />
-                                </button>
-                            </a>
-                        </div>
-                        <div>
-                            <a href='https://www.linkedin.com/in/razu-molla/' target='_blank' >
-                                <button className=" mx-2 text-4xl text-primary">
-                                    <AiFillLinkedin />
-                                </button>
-                            </a>
-                        </div>
-
-                    </div>
+                    
 
                 </div>
             </div>

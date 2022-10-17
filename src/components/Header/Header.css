@@ -3,9 +3,8 @@
     align-items: center;
 }
 
-
 .navbar {
-    width: 80%;
+    width: 100%;
     margin: auto;
 }
 
@@ -29,4 +28,3 @@
 .resume-dwn {
     margin-left: 5px;
 }
-

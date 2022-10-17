@@ -7,13 +7,12 @@ import Header from './components/Header/Header';
 import Banner from './components/Home/Banner';
 import Home from './components/Home/Home';
 import NotFound from './components/NotFound/NotFound';
-import Particle from './components/Particle';
 import Projects from './components/Projects/Projects';
 import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <div className='container mx-auto width-80%'>
+    <div className='container mx-auto '>
 
       <Header></Header>
       <Routes>

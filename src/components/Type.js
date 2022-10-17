@@ -3,10 +3,10 @@ import Typewriter from "typewriter-effect";
 
 function Type() {
     return (
-        <div className="text-2xl text-primary font-bold  flex gap-2">
+        <div className="text-2xl font-bold  flex gap-2">
             <Typewriter
                 options={{
-                    strings: ["Front End Developer", "React Developer", "MERN Stack Developer", "Quick Learner"],
+                    strings: ["Front End Developer.", "React Developer.", "MERN Stack Developer.", "Quick Learner."],
                     autoStart: true,
                     loop: true,
                     deleteSpeed: 30,
