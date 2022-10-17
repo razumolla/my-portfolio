@@ -13,8 +13,7 @@ import Skills from './components/Skills/Skills';
 
 function App() {
   return (
-    <div className='container mx-auto bg-blue-200'>
-      <Particle></Particle>
+    <div className='container mx-auto width-80%'>
 
       <Header></Header>
       <Routes>

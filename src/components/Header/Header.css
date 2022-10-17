@@ -1,0 +1,32 @@
+.portfolio-logo {
+    display: flex;
+    align-items: center;
+}
+
+
+.navbar {
+    width: 80%;
+    margin: auto;
+}
+
+.logo-title {
+    font-size: 30px;
+    font-weight: 700;
+    color: #077DE5;
+    margin-left: 10px;
+}
+
+.download-resume-section {
+    display: flex;
+    align-items: center;
+    border: 1px solid #59A7EC;
+    padding: 0 10px 0 10px;
+    border-radius: 5px;
+    color: #077DE5;
+    margin-top: 7px;
+}
+
+.resume-dwn {
+    margin-left: 5px;
+}
+

@@ -1,5 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import "./Header.css"
+import Resume from '../../image/Full Stack Developer-MERN(Razu Molla).pdf'
+import { FiDownload } from 'react-icons/fi';
+
 
 const Header = () => {
     const menuItem = <>
@@ -13,7 +17,7 @@ const Header = () => {
 
 
     return (
-        <div className="navbar  container bg-gradient-to-r from-blue-50 to-blue-200">
+        <div className="navbar  container ">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex="0" className="btn btn-primary lg:hidden">
@@ -23,12 +27,25 @@ const Header = () => {
                         {menuItem}
                     </ul>
                 </div>
-                {/* <a className="btn btn-ghost normal-case text-xl">Razu Molla</a> */}
+                <div className="portfolio-logo">
+                    <div class="avatar">
+                        <div class="w-8 rounded-full ring ring-primary ring-offset-base-100 ring-offset-2">
+                            <img src="https://i.ibb.co/qJv1r88/Razu-Molla-1.jpg" alt="Razu" />
+                        </div>
+                    </div>
+                    <div className='logo-title'>
+                        <a href="/home">Razu Molla</a>
+                    </div>
+                </div>
             </div>
 
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal p-0">
                     {menuItem}
+                    <div className='download-resume-section'>
+                        <FiDownload />
+                        <a className='resume-dwn' href={Resume} download>Download Resume</a>
+                    </div>
                 </ul>
             </div>
 

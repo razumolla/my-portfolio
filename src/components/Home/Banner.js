@@ -8,7 +8,7 @@ const Banner = () => {
     return (
         <div id='home' className="hero min-h-screen ">
             <div className="hero-content flex-col lg:flex-row">
-                <img src="https://i.ibb.co/8DjBZjL/IMG-1697.png" className="max-w-sm rounded-lg shadow-2xl " alt='img' />
+                <img src="https://i.ibb.co/qJv1r88/Razu-Molla-1.jpg" className="max-w-sm rounded-lg shadow-2xl " alt='img' />
                 <div className='lg:px-16'>
                     <h1 className="text-5xl font-bold">Razu Molla!</h1>
                     <Type className='text-6xl'></Type>
