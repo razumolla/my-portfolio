@@ -8,8 +8,8 @@ import image3 from '../../image/image3.PNG'
 const Projects = () => {
     return (
         <div>
-            <h2 className='text-center text-4xl font-bold mt-16 '>Recent Projects </h2>
-            <h3 className='text-center text-2xl mb-5 text-secondary font-bold'>I've Completed</h3>
+            <h2 className='text-center  mt-16 '>My Recent Work</h2>
+            <h3 className='text-center text-4xl text-primary font-bold mb-10'> <span className='border-b-4 border-black'>Portfolio </span> </h3>
 
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10'>
                 <div className="card  bg-base-100 shadow-xl">
@@ -30,7 +30,7 @@ const Projects = () => {
                                 <button className="btn btn-primary">Live Site </button>
                             </a>
                             <a href='https://github.com/razumolla/assignment-12-client' target='_blank'>
-                                <button className="btn btn-primary">Clint Side</button>
+                                <button className="btn btn-primary">Client Side</button>
                             </a>
                             <a href='https://github.com/razumolla/assignment-12-server' target='_blank'>
                                 <button className="btn btn-primary">server Side</button>

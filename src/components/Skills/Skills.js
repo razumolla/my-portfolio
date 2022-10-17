@@ -1,70 +1,157 @@
 import React from 'react';
+import './Skills.css'
 
 const Skills = () => {
     return (
-        <div id='skills'>
-            <h2 className='text-4xl text-center font-bold mb-10'>My <span className='text-secondary'> Skills</span> </h2>
+        <div className="skill">
+            <div className='text-center text-3xl font-bold pt-8 pb-12'>
+                <h6>My <span className='text-primary'>Skills</span></h6>
+            </div>
+            <div className='skill-container'>
+                <div classNameName="skill-details">
+                    <div className="progress-bar-details">
 
-            <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10'>
-                <div className="card  bg-blue-100 shadow-xl ">
-                    <div className="card-body">
-                        <h2 className="text-3xl text-center font-bold"> Front-End</h2>
-                        <hr />
-                        <p className='text-xl'>
-                            <li>HTML5 & CSS3 </li>
-                            <li>Bootstrap</li>
-                            <li>React Bootstrap</li>
-                            <li>Tailwind</li>
-                            <li>Daisy UI</li>
-                            <li>Javascript(ES-6)</li>
-                            <li>React Js</li>
-                        </p>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>HTML-5 <small>95%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-5">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>CSS3 <small>90%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-6">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>JavaScript <small>80%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-2">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>React <small>80%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-1">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Bootstrap <small>80%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-7">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Tailwind <small>85%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-8">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Node JS <small>75%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-3">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>MongoDB <small>75%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-4">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>React-Bootstrap <small>85%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-11">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Daisy UI <small>90%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-11">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Express JS <small>75%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-9">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="skill-section">
+                            <div className="skill-name">
+                                <h2>Firebase <small>70%</small></h2>
+                            </div>
+                            <div class="containerSkill">
+                                <div class="progress progress-striped">
+                                    <div class="progress-bar-10">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
                 </div>
-                <div className="card  bg-blue-100 shadow-xl ">
-                    <div className="card-body">
-                        <h2 className="text-3xl text-center font-bold"> Back-End</h2>
-                        <hr />
-                        <p className='text-xl'>
-                            <li>Express Js</li>
-                            <li>Node Js</li>
-                            <li>MongoDB</li>
-                            <li>Stripe (payment)</li>
-
-                        </p>
-                    </div>
-                </div>
-                <div className="card  bg-blue-100 shadow-xl ">
-                    <div className="card-body">
-                        <h2 className="text-4xl text-center font-bold"> Platform</h2>
-                        <hr />
-                        <p className='text-xl'>
-                            <li>Github</li>
-                            <li>Netlify</li>
-                            <li>Heroku</li>
-                            <li>Firebase</li>
-
-                        </p>
-
-                    </div>
-                </div>
-                <div className="card  bg-blue-100 shadow-xl ">
-                    <div className="card-body">
-                        <h2 className="text-4xl text-center font-bold"> Tools</h2>
-                        <hr />
-                        <p className='text-xl'>
-                            <li>VS Code</li>
-                            <li>Chrome Dev tool</li>
-                            <li>Figma</li>
-                            <li>Canva</li>
-                            <li>Photopea</li>
-                        </p>
-
-                    </div>
-                </div>
-
-
-
             </div>
         </div>
     );
