@@ -1,0 +1,285 @@
+
+.contact-page-title h2{
+    font-size: 28px;
+    font-weight: 600;
+    color: #077DE5;
+    text-align: center;
+    margin-bottom: 30px;
+    padding-top: 30px;
+}
+.contact-page-title span{
+    color: #3a3a64;
+}
+.contact-section{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}   
+.info-icon{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+.social-network{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+    text-align: center;
+}
+.linkedin{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 15px;
+}
+.fb{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.github{
+    padding: 10px 0 0 10px;
+    font-size: 26px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid #4A5055;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 15px;
+}
+.icon-details{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.icon{
+    margin: 4px 10px 0 0;
+    padding: 6px 0 0 6px;
+    font-size: 26px;
+    height: 40px;
+    width: 40px;
+    border: 1px solid gray;
+    border-radius: 50%;
+    display: inline-block;
+}
+.info h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.info p{
+    font-weight: 600;
+}
+.contact-form{
+    width: 60%;
+}
+.contact-form input{
+    width: 80%;
+    padding: 4px 0;
+}
+.contact-form input:focus{
+    outline: none;
+    padding-left: 15px;
+}
+.contact-form textarea{
+    width: 80%;
+    padding: 6px 0;
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+.contact-form textarea:focus{
+    outline: none;
+    padding-left: 15px;
+
+}
+.name-email{
+    border: 1px solid #b3b3b3;
+    border-radius: 5px;
+}
+.message-submit-button{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    border: 1px solid #077DE5;
+    padding: 4px 32px;
+    border-radius: 5px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    color: #077DE5;
+}
+.message-submit-button input{
+    cursor: pointer;
+}
+
+/* 376px to Max- 425px Mobile View */
+@media only screen and (max-width: 425px) {
+    .contact-section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .icon {
+        margin: 4px 10px 0 0;
+        padding: 14px 13px 0px 14px;
+        font-size: 21px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .linkedin {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .fb {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .github {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .contact-form {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .contact-form input {
+        width: 150%;
+        padding: 4px 0;
+    }
+    .contact-form textarea {
+        width: 150%;
+        padding: 6px 0;
+        border: 1px solid #b3b3b3;
+        border-radius: 5px;
+    }
+    .message-submit-button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 70px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}
+/* 426px to Max- 768px Mobile View */
+@media only screen and (min-width:426px) and (max-width:768px) {
+    .contact-section {
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon {
+        margin: 4px 10px 0 0;
+        padding: 8px 15px 8px 9px;
+        font-size: 21px;
+        height: 40px;
+        width: 40px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+    }
+    .linkedin {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .fb {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .github {
+        padding: 11px 13px 0 13px;
+        font-size: 26px;
+        height: 50px;
+        width: 50px;
+        border: 1px solid gray;
+        border-radius: 50%;
+        display: inline-block;
+        margin-right: 15px;
+    }
+    .contact-form {
+        width: 60%;
+        margin-top: 20px;
+    }
+    .contact-form input {
+        width: 100%;
+        padding: 4px 0;
+    }
+    .contact-form textarea {
+        width: 100%;
+        padding: 6px 0;
+        border: 1px solid #b3b3b3;
+        border-radius: 5px;
+    }
+    .message-submit-button {
+        width: 80%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 150px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}
+/* 769px to Max- 992px Tablet View */
+@media only screen and (min-width:769px) and (max-width:992px) {
+    .message-submit-button {
+        width: 30%;
+        display: flex;
+        align-items: center;
+        border: 1px solid #077DE5;
+        padding: 4px 32px;
+        border-radius: 5px;
+        margin-bottom: 50px;
+        cursor: pointer;
+        color: #077DE5;
+    }
+}

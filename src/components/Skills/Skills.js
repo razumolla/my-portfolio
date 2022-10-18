@@ -106,7 +106,7 @@ const Skills = () => {
 
                         <div className="skill-section">
                             <div className="skill-name">
-                                <h2>React-Bootstrap <small>85%</small></h2>
+                                <h2>Daisy UI <small>90%</small></h2>
                             </div>
                             <div class="containerSkill">
                                 <div class="progress progress-striped">
@@ -117,11 +117,11 @@ const Skills = () => {
                         </div>
                         <div className="skill-section">
                             <div className="skill-name">
-                                <h2>Daisy UI <small>90%</small></h2>
+                                <h2>Firebase <small>70%</small></h2>
                             </div>
                             <div class="containerSkill">
                                 <div class="progress progress-striped">
-                                    <div class="progress-bar-11">
+                                    <div class="progress-bar-10">
                                     </div>
                                 </div>
                             </div>
@@ -139,7 +139,7 @@ const Skills = () => {
                         </div>
                         <div className="skill-section">
                             <div className="skill-name">
-                                <h2>Firebase <small>70%</small></h2>
+                                <h2>Typescript <small>70%</small></h2>
                             </div>
                             <div class="containerSkill">
                                 <div class="progress progress-striped">
@@ -148,8 +148,6 @@ const Skills = () => {
                                 </div>
                             </div>
                         </div>
-
-
                     </div>
                 </div>
             </div>
